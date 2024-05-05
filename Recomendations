@@ -1,2 +1,8 @@
 
 sudo apt install qemu-guest-agent -y
+El comando sudo apt install qemu-guest-agent se utiliza para instalar el agente de invitado de QEMU en un sistema basado en Debian (como Ubuntu). 
+El agente de invitado de QEMU es un servicio que se ejecuta dentro de una máquina virtual QEMU y proporciona una serie de funcionalidades, como la sincronización de la hora del sistema invitado con el host, 
+la detección de la instalación de un nuevo disco virtual, entre otras cosas.
+
+Al ejecutar este comando, se instalará el paquete qemu-guest-agent, que contiene el software necesario para el agente de invitado de QEMU. 
+Una vez instalado, el agente de invitado de QEMU debería iniciarse automáticamente en la máquina virtual y estar disponible para proporcionar estas funcionalidades.
